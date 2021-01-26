@@ -15,7 +15,7 @@
 <a href="https://github.com/taufiq-46/botwa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/taufiq-46/botwa?color=red&style=flat-square"></a>
 <a href="https://github.com/taufiq-46/botwa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/taufiq-46/whatsapp-bot?color=red&style=flat-square"></a>
 <a href="https://github.com/taufiq-46/botwa/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/taufiq-46/botwa?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArugaZ%2Fwhatsapp-bot&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftaufiq-46%2FBOTWA&count_bg=%23FF0000&title_bg=%23610DFF&icon=&icon_color=%2310EF0C&title=hits&edge_flat=false"/></a>
 </p>
 <div align="center">
 <details>
