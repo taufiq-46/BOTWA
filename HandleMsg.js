@@ -1379,10 +1379,10 @@ module.exports = HandleMsg = async (aruga, message) => {
 			
         //Owner Group
         case 'kickall': //mengeluarkan semua member
-        if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
+        if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini cuma bisa dipakai didalam grup!', id)
         let isOwner = chat.groupMetadata.owner == pengirim
-        if (!isOwner) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai oleh owner grup!', id)
-        if (!isBotGroupAdmins) return aruga.reply(from, 'Gagal, silahkan tambahkan bot sebagai admin grup!', id)
+        if (!isOwner) return aruga.reply(from, 'Maaf, perintah ini cuma bisa dipakai owner grup!', id)
+        if (!isBotGroupAdmins) return aruga.reply(from, 'Gagal, bot jadiin admin grup dulu!', id)
             const allMem = await aruga.getGroupMembers(groupId)
             for (let i = 0; i < allMem.length; i++) {
                 if (groupAdmins.includes(allMem[i].id)) {
@@ -1391,7 +1391,7 @@ module.exports = HandleMsg = async (aruga, message) => {
                     await aruga.removeParticipant(groupId, allMem[i].id)
                 }
             }
-            aruga.reply(from, 'Success kick all member', id)
+            aruga.reply(from, 'Sukses buang semua member', id)
         break
 
         //Owner Bot
